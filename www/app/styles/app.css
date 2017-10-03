@@ -46,6 +46,10 @@ body > .container {
 	margin-bottom: 15px;
 }
 
+$( document ).ready(function() {
+      $(".button-collapse").sideNav();
+    });
+
 code {
   font-size: 80%;
 }
